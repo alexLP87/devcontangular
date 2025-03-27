@@ -1,0 +1,18 @@
+{
+  "name": "Angular Dev Container",
+  "image": "registry.fedoraproject.org/fedora:latest",
+  "runArgs": ["--security-opt", "label=disable"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+   "onCreateCommand": {
+    "update": "dnf update -y",
+    "installDependencies": "dnf install nodejs npm git -y",
+    "installWebTools": "npm install -g  @angular/cli@16.2.0" 
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["toBeAdded"]
+    }
+  }
+}
