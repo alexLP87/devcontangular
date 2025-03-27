@@ -12,7 +12,17 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["toBeAdded"]
+      "extensions": ["christian-kohler.npm-intellisense",
+                     "davidanson.vscode-markdownlint",
+                     "eamodio.gitlens",
+                     "esbenp.prettier-vscode",
+                     "ritwickdey.live",
+                     "ms-vscode-remote.remote-ssh",
+                     "ecmel.vscode-html-css",
+                     "redhat.vscode-yaml",
+                     "angular.ng-template",
+                     "ms-vscode.vscode-typescript-next"
+      ]
     }
   }
 }
